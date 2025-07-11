@@ -1,0 +1,241 @@
+header {
+    background-image: url(Assets/Hero-bg.png);
+    height: 698px;
+    max-width: 100%;
+    background-size: cover;
+    margin-bottom: 121px;
+
+
+}
+
+/* shared style */
+main {
+    background-color: seashell;
+}
+
+/* Nav Section Style */
+.nav-section {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 151px;
+    align-items: center;
+    /* margin-top: 121px; */
+}
+
+.nav-section h1 {
+    color: #4E47FF;
+    font-size: 50px;
+}
+
+/*Banner section style  */
+
+.banner-title,
+h2 {
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: xxx-large;
+    color: #252432;
+}
+
+/* Shared Style */
+button {
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Action Section Style */
+.action-section {
+    display: flex;
+    max-width: 1140px;
+    max-height: 328px;
+    justify-content: space-between;
+    margin: 0px auto;
+    gap: 220px;
+    align-items: center;
+
+}
+
+
+.action-title {
+    color: #252432;
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 0px;
+}
+
+.action-description {
+    text-align: left;
+}
+
+.right-side img {
+    border-radius: 48px;
+    max-width: 403px;
+    max-height: 328px;
+}
+
+/* Production-Section Styles */
+.productive-section {
+    background-color: gainsboro;
+    max-width: 1140px;
+    max-height: 306px;
+    border-radius: 24px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.productive-user {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.user-activity h1 {
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0 auto;
+}
+
+.user-activity p {
+    color: #8987A1;
+}
+
+/* Challenge Part Style */
+/* user feedback section */
+
+.user-feedback-section {
+    /* margin-top: 120px; */
+}
+
+.users-section {
+    display: flex;
+    max-width: 1140px;
+    margin: 0px auto;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.user-section {
+    /* display: flex; */
+    background-color: #F2EDED;
+    text-align: left;
+    border-radius: 14px;
+    padding: 24px;
+}
+
+.user-title {
+    font-size: 20px;
+}
+
+.star-section {
+    margin-top: 24px;
+}
+
+.user-title,
+.user-description {
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.user-profile-section {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.user-image img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.user-name h3,
+p {
+    text-align: left;
+    margin: 2px;
+}
+
+/* Touch Section Styles */
+.touch-section {
+    display: flex;
+    max-width: 1140px;
+    margin: 0px auto;
+    justify-content: space-around;
+    margin-top: 120px;
+    gap: 115px;
+    height: 500px;
+}
+
+.touch-title {
+    font-weight: bold;
+    font-size: 97px;
+    max-width: 528px;
+}
+
+.touch-right-side {
+    /* max-width: 528px; */
+
+}
+
+.touch-right-side input[type="text"],
+.touch-right-side input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.touch-right-side button {
+    width: 100%;
+}
+
+footer {
+    /* align-items: center; */
+    margin: 0px auto;
+    max-width: 1140px;
+    text-align: center;
+    height: 428px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.company-info .logo,
+.footer-subtitle {
+    margin-bottom: 20px;
+}
+
+.important-link li {
+    list-style: none;
+    display: inline;
+}
+
+.important-link li a {
+    text-decoration: none;
+    margin: 2px 10px;
+}
+
+.footer-container h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.footer-subtitle,
+.important-link a {
+    color: #8987A1;
+}
