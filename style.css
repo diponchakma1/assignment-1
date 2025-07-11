@@ -130,7 +130,6 @@ button:hover {
 }
 
 .user-section {
-    /* display: flex; */
     background-color: #F2EDED;
     text-align: left;
     border-radius: 14px;
@@ -166,8 +165,48 @@ button:hover {
 
 .user-name h3,
 p {
-    text-align: left;
     margin: 2px;
+}
+
+.user-name h3 {
+    text-align: left;
+}
+
+.user-name p {
+    text-align: left;
+}
+
+/* Ready Section Styles */
+
+.ready-section {
+    max-width: 1140px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+    margin-top: 120px;
+    border: none;
+    border-radius: 14px;
+}
+
+.ready-content h2 {
+    padding-top: 71px;
+}
+
+.ready-content button {
+    margin-bottom: 20px;
+}
+
+.ready-image img {
+    border-radius: 48px;
+    width: 840px;
+    height: 365px;
+    margin-bottom: 71px;
+
+}
+
+.ready-content h2,
+p {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Touch Section Styles */
@@ -208,7 +247,6 @@ textarea {
 }
 
 footer {
-    /* align-items: center; */
     margin: 0px auto;
     max-width: 1140px;
     text-align: center;
